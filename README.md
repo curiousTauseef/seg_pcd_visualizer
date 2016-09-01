@@ -3,6 +3,12 @@
 ## Fast Example:
 ### $ cd Example && ./cloud_viewer (or go to Example dir and double click on cloud_viewer)
 
+<p align="center">
+  <img src="https://postimg.org/image/ca98r6f9p/" width="350"/>
+</p>
+
+
+
 ## How to use:
 ### 1- Move all the pointclouds (".pcd" files) into a folder of your choice
 ### 2- Move the cloud_viewer executable to the same folder
