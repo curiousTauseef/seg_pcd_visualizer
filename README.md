@@ -1,4 +1,5 @@
 ## A Visualizer for Segmented PointClouds, using PCL 
+implementation of multi pointcloud visualization using pcl, the point-clouds are loaded individualy and plotted at the same window, this is usefull for visualizing segmented objects and debug segmentation algorithms.
 
 ## Fast Example:
 ### $ cd Example && ./cloud_viewer 
@@ -7,7 +8,6 @@
 <p align="center">
   <img src="https://s22.postimg.org/p1nexop1t/printseg.png" width="600"/>
 </p>
-
 
 
 ## How to use:
