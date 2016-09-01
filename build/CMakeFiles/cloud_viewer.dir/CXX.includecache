@@ -6,14 +6,18 @@
 
 #IncludeRegexTransform: 
 
-/home/rachillesf/PCL_tutorials/seg_visualizer/cloud_viewer.cpp
-list
+/home/rachillesf/git/seg_pcd_visualizer/cloud_viewer.cpp
+iostream
 -
+boost/filesystem.hpp
+/home/rachillesf/git/seg_pcd_visualizer/boost/filesystem.hpp
 pcl/visualization/cloud_viewer.h
 -
 pcl/io/pcd_io.h
 -
 pcl/point_types.h
+-
+vector
 -
 
 /usr/include/eigen3/Eigen/Cholesky

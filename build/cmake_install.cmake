@@ -1,4 +1,4 @@
-# Install script for directory: /home/rachillesf/PCL_tutorials/seg_visualizer
+# Install script for directory: /home/rachillesf/git/seg_pcd_visualizer
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/rachillesf/PCL_tutorials/seg_visualizer/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/rachillesf/git/seg_pcd_visualizer/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/rachillesf/PCL_tutorials/seg_visualizer/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/rachillesf/git/seg_pcd_visualizer/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)
