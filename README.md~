@@ -1,7 +1,7 @@
 ## A Visualizer for Segmented PointClouds, using PCL 
 
 ## Fast Example:
-### $ cd Example && ./cloud_viewer (or go to Example dir and double click on cloud_viewer)
+### $ ./Example/cloud_viewer
 
 ## How to use:
 ### 1- Move all the pointclouds (".pcd" files) into a folder of your choice
