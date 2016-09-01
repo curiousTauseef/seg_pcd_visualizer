@@ -33,8 +33,8 @@ int main()
             int c3 = rand() % 256;
             reader.read (file, *cloud);
             viewer.addPointCloud<pcl::PointXYZ>(cloud,
-              pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ>(cloud,c1,c2,c3)
-              ,file);
+              pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ>(cloud,c1,c2,c3),
+              file);
           }
     }
 
