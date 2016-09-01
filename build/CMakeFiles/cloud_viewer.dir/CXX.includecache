@@ -17,8 +17,6 @@ pcl/io/pcd_io.h
 -
 pcl/point_types.h
 -
-vector
--
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

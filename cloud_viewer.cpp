@@ -3,7 +3,7 @@
 #include <pcl/visualization/cloud_viewer.h>
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
-#include <vector>
+
 
 using namespace boost::filesystem;
 
@@ -15,8 +15,6 @@ int main()
     pcl::visualization::PCLVisualizer viewer;
     //reader object
     pcl::PCDReader reader;
-    //list of collors
-    std::vector<pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> > colors;
     //assuming the segmented clouds are at the current directory
     path p (".");
     directory_iterator end_itr;
@@ -33,10 +31,8 @@ int main()
             int c1 = rand() % 256;
             int c2 = rand() % 256;
             int c3 = rand() % 256;
-            colors.push_back(pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ>(cloud,c1,c2,c3));
             reader.read (file, *cloud);
-            viewer.addPointCloud<pcl::PointXYZ>(cloud,colors[0],file);
-            colors.pop_back();
+            viewer.addPointCloud<pcl::PointXYZ>(cloud,pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ>(cloud,c1,c2,c3),file);
           }
     }
 
